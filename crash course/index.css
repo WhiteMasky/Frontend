@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    background-color: aqua;
+    width: 200px;
+    box-sizing: border-box;
+    /* position: relative; */ 
+    /* 本身不改变，只是让子元素参考用的 */
+}
+.box {
+    background-color: palegreen;
+    word-wrap: break-word;
+    border: 1px dotted green;
+    border-radius: 2px;
+    padding-right: 10px;
+    margin-left: 300px;
+}
+.box p{
+    color: rebeccapurple;
+    text-indent: 2em;
+}
+.box span{
+    color: brown;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    /* position: absolute; */
+    position: fixed;
+    left: 10px;
+    top: 50px;
+}
